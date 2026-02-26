@@ -1,0 +1,22 @@
+# 1. directory
+root_path: "/home/chenyu/SSMIS/data/LA"
+res_path: "./results/LA"
+# random seed
+seed: 2025
+test_interval_ep: 4
+
+model1: vnet
+model2: vnet
+# 2. training
+labeled_num: 8                # TBD:   4, 8, 16
+max_iterations: 15000
+max_samples: 80
+base_lr: 0.001
+batch_size: 4
+labeled_bs: 2
+poly: True
+
+
+# 3. supervision
+consistency: 2.0
+consistency_rampup: 40

@@ -1,0 +1,22 @@
+# 1. directory
+root_path: "/home/chenyu/SSMIS/data/ACDC"
+res_path: "./results/ACDC"
+# random seed
+seed: 2025
+test_interval_ep: 2
+
+model1: unet
+model2: unet
+
+# 2. training
+labeled_num: 7               # TBD:   3, 7, 14
+max_iterations: 30000
+base_lr: 0.001
+batch_size: 24               
+labeled_bs: 12
+poly: True
+
+# 3. supervision
+consistency: 2.0
+consistency_rampup: 50
+

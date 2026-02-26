@@ -1,0 +1,21 @@
+# 1. directory
+root_path: "/home/chenyu/SSMIS/data/Pancreas"
+res_path: "./results/Pancreas"
+# random seed
+seed: 2025
+test_interval_ep: 2
+
+model1: vnet
+model2: vnet
+# 2. training
+labeled_num: 12                # TBD:   6, 12
+max_iterations: 15000
+max_samples: 62
+base_lr: 0.001
+batch_size: 4
+labeled_bs: 2
+poly: True
+
+# 3. supervision
+consistency: 2.0
+consistency_rampup: 40
