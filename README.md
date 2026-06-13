@@ -17,7 +17,7 @@ Following [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) to prepare the three d
 **Package: nothing but common ones**
 
 ```
-h5py==3.1.0
+ h5py==3.1.0
  matplotlib==3.3.4
  MedPy==0.4.0
  nibabel==3.2.2
