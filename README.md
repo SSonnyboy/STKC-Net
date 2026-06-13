@@ -12,12 +12,12 @@
 
 ## Usage
 
-Following [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) to prepare the three datasets, and properly setup the path in corresponding config file. 
+Following [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) to prepare the three datasets, and properly setup the path in corresponding config file.
 
 **Package: nothing but common ones**
 
 ```
- h5py==3.1.0
+h5py==3.1.0
  matplotlib==3.3.4
  MedPy==0.4.0
  nibabel==3.2.2
@@ -36,6 +36,16 @@ Following [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) to prepare the three d
  tqdm==4.54.0
 ```
 
+**To run, simple check the provided shell files for trianing and testing.**
+
+```
+# setup the config file firstly
+ # to train on Pancreas
+ sh ./train_3d_pan.sh
+ # to test on Pancreas
+ sh ./test_3d_pan.sh
+```
+
 ## Acknowledgement
 
 We thank [UA-MT](https://github.com/yulequan/UA-MT), [SSL4MIS](https://github.com/HiLab-git/SSL4MIS), [AD-MT](https://github.com/ZhenZHAO/AD-MT), [SS-Net](https://github.com/ycwu1997/SS-Net) and [BCP](https://github.com/DeepMed-Lab-ECNU/BCP), for part of their codes, processed datasets, and data partitions.
@@ -52,3 +62,4 @@ If you find this work useful for your research, please consider citing our paper
   year={2026}
 }
 ```
+
