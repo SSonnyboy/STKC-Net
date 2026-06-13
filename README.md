@@ -18,22 +18,22 @@ Following [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) to prepare the three d
 
 ```
 h5py==3.1.0
- matplotlib==3.3.4
- MedPy==0.4.0
- nibabel==3.2.2
- numpy==1.19.4
- opencv-python==4.4.0.46
- pandas==1.1.4
- Pillow==8.4.0
- PyYAML==5.4.1
- scikit-image==0.17.2
- scipy==1.5.4
- SimpleITK==2.1.1.2
- tensorboard==2.4.0
- torch==1.10.1
- torch-geometric==1.7.0
- torchvision==0.8.0a0+45f960c
- tqdm==4.54.0
+matplotlib==3.3.4
+MedPy==0.4.0
+nibabel==3.2.2
+numpy==1.19.4
+opencv-python==4.4.0.46
+pandas==1.1.4
+Pillow==8.4.0
+PyYAML==5.4.1
+scikit-image==0.17.2
+scipy==1.5.4
+SimpleITK==2.1.1.2
+tensorboard==2.4.0
+torch==1.10.1
+torch-geometric==1.7.0
+torchvision==0.8.0a0+45f960c
+tqdm==4.54.0
 ```
 
 **To run, simple check the provided shell files for trianing and testing.**
