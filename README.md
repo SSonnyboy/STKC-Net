@@ -42,8 +42,8 @@ tqdm==4.54.0
 # setup the config file firstly
 # to train on Pancreas
 sh ./train_3d_pan.sh
-# to test on Pancreassh 
-./test_3d_pan.sh
+# to test on Pancreas
+sh ./test_3d_pan.sh
 ```
 
 ## Acknowledgement
