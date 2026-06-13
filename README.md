@@ -17,7 +17,7 @@ Following [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) to prepare the three d
 **Package: nothing but common ones**
 
 ```
- h5py==3.1.0
+h5py==3.1.0
  matplotlib==3.3.4
  MedPy==0.4.0
  nibabel==3.2.2
@@ -56,7 +56,7 @@ If you find this work useful for your research, please consider citing our paper
 ```
 @inproceedings{chen2026STKC,
   title={Learning Beyond Pixels: Structured Knowledge Topology Consistency for Semi-supervised 2D/3D Medical Image Segmentation},
-  author={Yu Chen, Qiang Xu, Ke Wang, Fan Yang, Yifan Shuai and Honghao Wei},
+  author={Yu Chen, Qiang Xu, Ke Wang, Fan Yang and Honghao Wei},
   booktitle={29th INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION (MICCAI'2026)},
   year={2026}
 }
