@@ -1,5 +1,7 @@
 # Learning Beyond Pixels: Structured Knowledge Topology  Consistency for Semi-supervised 2D/3D Medical Image Segmentation
 
+🎉 Our work has been accepted for MICCAI 2026!
+
 ### Dataset
 
 **Preprocess**: refer to the image pre-processing method in [CoraNet](https://github.com/koncle/CoraNet) and [BCP](https://github.com/DeepMed-Lab-ECNU/BCP) for the Pancreas dataset, Left atrium and ACDC dataset. Pancreas pre-processing code can be got at [CoraNet](https://github.com/koncle/CoraNet).
@@ -38,3 +40,15 @@ Following [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) to prepare the three d
 
 We thank [UA-MT](https://github.com/yulequan/UA-MT), [SSL4MIS](https://github.com/HiLab-git/SSL4MIS), [AD-MT](https://github.com/ZhenZHAO/AD-MT), [SS-Net](https://github.com/ycwu1997/SS-Net) and [BCP](https://github.com/DeepMed-Lab-ECNU/BCP), for part of their codes, processed datasets, and data partitions.
 
+## Citation
+
+If you find this work useful for your research, please consider citing our paper:
+
+```
+@inproceedings{chen2026STKC,
+  title={Learning Beyond Pixels: Structured Knowledge Topology Consistency for Semi-supervised 2D/3D Medical Image Segmentation},
+  author={Yu Chen, Qiang Xu, Ke Wang, Fan Yang, Yifan Shuai and Honghao Wei},
+  booktitle={29th INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION (MICCAI'2026)},
+  year={2026}
+}
+```
