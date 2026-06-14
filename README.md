@@ -8,8 +8,6 @@
 
 **Dataset split**: The `./data` folder contains the information about the train-test split for all three datasets.
 
-**Results**: The `./results` folder contains part of training logs and results of this work.
-
 ## Usage
 
 Following [SSL4MIS](https://github.com/HiLab-git/SSL4MIS) to prepare the three datasets, and properly setup the path in corresponding config file.
@@ -62,4 +60,3 @@ If you find this work useful for your research, please consider citing our paper
   year={2026}
 }
 ```
-
